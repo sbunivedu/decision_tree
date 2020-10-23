@@ -48,6 +48,7 @@ public class DecisionTree{
       String fileName = scan.nextLine();
       try{
         rules = new DecisionTree(fileName);
+        done = true;
       }catch(FileNotFoundException e){
         done = false;
       }
